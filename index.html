@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Homepage</title>      
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>Flower Power</h1>
+        <h2>Lovingly crafted bouqets</h2>
+
+        <div class="option">
+            <label for="flowers"></label>
+
+            <select id="sort">              
+              <option value="sort">Sort by:</option>
+              <option value="low-high">Price: Low - High</option>
+              <option value="high-low">Price: High - Low</option>
+              <option value="a-z">Name: A - Z</option>
+              <option value="z-a">Name: Z - A</option>
+            </select>
+        </div>
+
+        <main class="container">    
+            <div class="products">
+                <div class="loader">
+                </div>
+            </div> 
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
